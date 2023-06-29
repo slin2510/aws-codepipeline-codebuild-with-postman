@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PetStoreAPI" tests="3" time="0.000">
+  <testsuite name="list pets" id="ad30d164-40ce-4ac4-973b-74b6e7d18222" timestamp="2023-06-29T13:18:43.231Z" tests="3" failures="2" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{apigw-root}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+---
+]]></system-err>
+    <testcase name="Is valid response with json array in body" time="0.000" classname="PetStoreApi">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'UNDEFINED'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 83e98cfc-83a9-46f8-916d-21d1a2b4e062.]]>
+        <![CDATA[Collection name: PetStoreAPI.]]>
+        <![CDATA[Request name: list pets.]]>
+        <![CDATA[Test description: Is valid response with json array in body.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'UNDEFINED'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'UNDEFINED'
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Has Content-Type header" time="0.000" classname="PetStoreApi"/>
+    <testcase name="Is response time is less than 200ms" time="0.000" classname="PetStoreApi">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 83e98cfc-83a9-46f8-916d-21d1a2b4e062.]]>
+        <![CDATA[Collection name: PetStoreAPI.]]>
+        <![CDATA[Request name: list pets.]]>
+        <![CDATA[Test description: Is response time is less than 200ms.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:3:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="add pet" id="170a4f6e-3a36-4dc6-b47d-3f6eb90f07a2" timestamp="2023-06-29T13:18:43.231Z" tests="4" failures="3" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{apigw-root}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+---
+]]></system-err>
+    <testcase name="Is valid response with json object in body" time="0.000" classname="PetStoreApi">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'UNDEFINED'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 83e98cfc-83a9-46f8-916d-21d1a2b4e062.]]>
+        <![CDATA[Collection name: PetStoreAPI.]]>
+        <![CDATA[Request name: add pet.]]>
+        <![CDATA[Test description: Is valid response with json object in body.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'UNDEFINED'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'UNDEFINED'
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Has Content-Type header" time="0.000" classname="PetStoreApi"/>
+    <testcase name="Is message response equal sucess" time="0.000" classname="PetStoreApi">
+      <failure type="AssertionFailure" message="Unexpected token u in JSON at position 0">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 83e98cfc-83a9-46f8-916d-21d1a2b4e062.]]>
+        <![CDATA[Collection name: PetStoreAPI.]]>
+        <![CDATA[Request name: add pet.]]>
+        <![CDATA[Test description: Is message response equal sucess.]]>
+        <![CDATA[Error message: Unexpected token u in JSON at position 0.]]>
+        <![CDATA[Stacktrace: JSONError: Unexpected token u in JSON at position 0
+   at Object.eval sandbox-script.js:3:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Is response time is less than 200ms" time="0.000" classname="PetStoreApi">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 83e98cfc-83a9-46f8-916d-21d1a2b4e062.]]>
+        <![CDATA[Collection name: PetStoreAPI.]]>
+        <![CDATA[Request name: add pet.]]>
+        <![CDATA[Test description: Is response time is less than 200ms.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:4:2).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="get pet by id" id="c90f3254-9d23-49e5-9a52-8aa7bac1a4f0" timestamp="2023-06-29T13:18:43.231Z" tests="3" failures="2" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{apigw-root}}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)
+
+---
+]]></system-err>
+    <testcase name="Is valid response with json object in body" time="0.000" classname="PetStoreApi">
+      <failure type="AssertionFailure" message="expected response to have status reason 'OK' but got 'UNDEFINED'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 83e98cfc-83a9-46f8-916d-21d1a2b4e062.]]>
+        <![CDATA[Collection name: PetStoreAPI.]]>
+        <![CDATA[Request name: get pet by id.]]>
+        <![CDATA[Test description: Is valid response with json object in body.]]>
+        <![CDATA[Error message: expected response to have status reason 'OK' but got 'UNDEFINED'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'OK' but got 'UNDEFINED'
+   at Object.eval sandbox-script.js:1:3).]]>
+      </failure>
+    </testcase>
+    <testcase name="Has Content-Type header" time="0.000" classname="PetStoreApi"/>
+    <testcase name="Is response time is less than 200ms" time="0.000" classname="PetStoreApi">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 83e98cfc-83a9-46f8-916d-21d1a2b4e062.]]>
+        <![CDATA[Collection name: PetStoreAPI.]]>
+        <![CDATA[Request name: get pet by id.]]>
+        <![CDATA[Test description: Is response time is less than 200ms.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:3:3).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
